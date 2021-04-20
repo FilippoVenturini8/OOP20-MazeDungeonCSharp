@@ -1,0 +1,3 @@
+C:\Users\david\Desktop\Nuova cartella (2)\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.csprojAssemblyReference.cache
+C:\Users\david\Desktop\Nuova cartella (2)\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.AssemblyInfoInputs.cache
+C:\Users\david\Desktop\Nuova cartella (2)\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.AssemblyInfo.cs
