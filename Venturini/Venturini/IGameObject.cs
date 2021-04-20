@@ -6,10 +6,24 @@ using System.Threading.Tasks;
 
 namespace Venturini
 {
+    /// <summary>
+    /// An interface that represent the basic entity which can be placed in a Room during the gameloop.
+    /// </summary>
     interface IGameObject
     {
-        Point2D Position { get; set; }
+        /// <summary>
+        /// return or set the Position of the GameObject.
+        /// </summary>
+        Point2D Position { get; }
 
+        /// <summary>
+        /// return or set the id of the GameObject.
+        /// </summary>
         int ID { get; set; }
+
+        /// <summary>
+        /// get and set the BoundingBox corresponding to the GameObject.
+        /// </summary>
+        BoundingBox BoundingBox { get; set; }
     }
 }

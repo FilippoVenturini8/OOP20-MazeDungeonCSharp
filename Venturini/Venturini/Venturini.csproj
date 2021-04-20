@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractDynamicObject.cs" />
+    <Compile Include="AbstractSimpleObject.cs" />
+    <Compile Include="BoundingBox.cs" />
+    <Compile Include="IDynamicObject.cs" />
     <Compile Include="IGameObject.cs" />
+    <Compile Include="ISimpleObject.cs" />
     <Compile Include="Point2D.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

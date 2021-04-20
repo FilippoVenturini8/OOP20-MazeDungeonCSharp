@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace Venturini
 {
+    /// <summary>
+    /// A basic class that implements the concept of Vector in two dimensions.
+    /// </summary>
     class Vector2D
     {
-        private double x;
-        private double y;
+        private readonly double x;
+        private readonly double y;
 
         public double X
         {
             get { return x; }
-            set { this.x = value; }
         }
 
         public double Y
         {
             get { return y; }
-            set { this.y = value; }
         }
 
         /// <summary>
@@ -41,8 +42,8 @@ namespace Venturini
         /// <param name="from">ending point of the vector</param>
         public Vector2D(Point2D to, Point2D from)
         {
-            this.X = to.X - from.X;
-            this.Y = to.Y - from.Y;
+            x = to.X - from.X;
+            y = to.Y - from.Y;
         }
 
         /// <summary>
