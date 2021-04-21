@@ -12,6 +12,15 @@ namespace Malucelli
 
         private IList<CardinalPoint> nearRooms = new List<CardinalPoint>();
 
+        public Room(RoomManager roomManager, IList<CardinalPoint> doors)
+        {
+            this.RoomManager = roomManager;
+            foreach(CardinalPoint cp in doors)
+            {
+                this.nearRooms.Add(cp);
+            }
+        }
+
         public IRoomManager RoomManager { get; private set; }
         public bool IsVisited { get; private set; }
 
