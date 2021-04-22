@@ -4,11 +4,17 @@ using System.Text;
 
 namespace Malucelli
 {
-    class RoomManager : IRoomManager
+    /// <summary>
+    /// this class implements RoomManager.
+    ///a RoomManagerImpl contain a collection of Rooms.
+    ///The Room disposition is random and all the Rooms have at least a door that connect
+    ///to another Room.
+    /// </summary>
+    public class RoomManager : IRoomManager
     {
         private Dictionary<Point2D, IRoom> rooms = new Dictionary<Point2D, IRoom>();
 
-        RoomManager()
+        public RoomManager()
         {
             this.InitializeRooms(this.CreateGameMap());
         }

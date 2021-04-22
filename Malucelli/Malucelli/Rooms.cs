@@ -7,7 +7,7 @@ namespace Malucelli
     /// <summary>
     /// this class contains some utility fields for the Room, the RoomManager and the RoomBuilder.
     /// </summary>
-    static class Rooms
+    public static class Rooms
     {
         /// <summary>
         /// upper left corner of the room.

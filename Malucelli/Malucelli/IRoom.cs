@@ -7,7 +7,7 @@ namespace Malucelli
     /// <summary>
     /// this class contains some utility fields for the Room, the RoomManager and the RoomBuilder.
     /// </summary>
-    interface IRoom
+    public interface IRoom
     {
         /// <summary>
         /// the room manager of the Room
@@ -18,6 +18,36 @@ namespace Malucelli
         /// boolean that show if the room has been visited
         /// </summary>
         bool IsVisited { get; }
+
+        /// <summary>
+        /// Add a DynamicObject to the room.
+        /// </summary>
+        /// <param name="obj">DynamicObject to add to the room</param>
+        void AddDynamicObject(DynamicObject obj);
+
+        /// <summary>
+        /// /** Add a SimpleObject to the room.
+        /// </summary>
+        /// <param name="obj">SimpleObject to add to the room</param>
+        void AddSimpleObject(SimpleObject obj);
+
+        /// <summary>
+        /// Remove a SimpleObject from the room.
+        /// </summary>
+        /// <param name="obj">SimpleObject to remove from the room</param>
+        void DeleteSimpleObject(SimpleObject obj);
+
+        /// <summary>
+        /// Remove a DynamicObject from the room.
+        /// </summary>
+        /// <param name="obj">DynamicObject to remove from the room</param>
+        void DeleteDynamicObject(DynamicObject obj);
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>a list containing all the DynamicObject</returns>
+        IList<DynamicObject> GetCurrentDynamicObjects();
 
         /// <summary>
         /// Update the state of each DynamicObject using the time passed from the last update./// </summary>

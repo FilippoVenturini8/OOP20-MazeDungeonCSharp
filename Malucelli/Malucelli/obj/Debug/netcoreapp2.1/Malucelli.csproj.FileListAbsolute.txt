@@ -1,0 +1,11 @@
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\bin\Debug\netcoreapp2.1\Malucelli.deps.json
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\bin\Debug\netcoreapp2.1\Malucelli.runtimeconfig.json
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\bin\Debug\netcoreapp2.1\Malucelli.runtimeconfig.dev.json
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\bin\Debug\netcoreapp2.1\Malucelli.dll
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\bin\Debug\netcoreapp2.1\Malucelli.pdb
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\obj\Debug\netcoreapp2.1\Malucelli.csprojAssemblyReference.cache
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\obj\Debug\netcoreapp2.1\Malucelli.csproj.CoreCompileInputs.cache
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\obj\Debug\netcoreapp2.1\Malucelli.AssemblyInfoInputs.cache
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\obj\Debug\netcoreapp2.1\Malucelli.AssemblyInfo.cs
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\obj\Debug\netcoreapp2.1\Malucelli.dll
+C:\Users\Nicolò\Desktop\CSharp\OOP20-MazeDungeonCSharp\Malucelli\Malucelli\obj\Debug\netcoreapp2.1\Malucelli.pdb

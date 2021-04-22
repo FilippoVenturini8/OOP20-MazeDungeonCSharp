@@ -7,9 +7,9 @@ namespace Malucelli
     /// <summary>
     /// This is an infinite Iterator that provides id for all the GameObjects.
     /// </summary>
-    class IdIterator
+    public class IdIterator
     {
-        private int value;
+        private int value = 0;
 
         /// <summary>
         /// Has always a next value.

@@ -9,7 +9,7 @@ namespace Malucelli
     /// The RoomManager can update the current room and can select
     /// a new Room as current.
     /// </summary>
-    interface IRoomManager
+    public interface IRoomManager
     {
         /// <summary>
         /// the IdIterator
