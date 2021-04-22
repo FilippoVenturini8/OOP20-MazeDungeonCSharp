@@ -1,0 +1,9 @@
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\bin\Debug\UnitTests.dll
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\bin\Debug\UnitTests.pdb
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\bin\Debug\Venturini.exe
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\bin\Debug\Venturini.pdb
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\bin\Debug\it\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\obj\Debug\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\obj\Debug\UnitTests.dll
+C:\Users\Filippo\Desktop\CSharp\Venturini\UnitTests\obj\Debug\UnitTests.pdb

@@ -9,7 +9,7 @@ namespace Venturini
     /// <summary>
     /// A Marker Interface used to make explicit the differences from SimpleObject to DynamicObject.
     /// </summary>
-    interface ISimpleObject : IGameObject
+    public interface ISimpleObject : IGameObject
     {
     }
 }

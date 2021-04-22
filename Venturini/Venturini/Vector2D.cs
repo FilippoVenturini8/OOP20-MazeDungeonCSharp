@@ -9,7 +9,7 @@ namespace Venturini
     /// <summary>
     /// A basic class that implements the concept of Vector in two dimensions.
     /// </summary>
-    class Vector2D
+    public class Vector2D
     {
         private readonly double x;
         private readonly double y;

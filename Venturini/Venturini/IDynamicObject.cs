@@ -9,7 +9,7 @@ namespace Venturini
     /// <summary>
     /// An interface that define a DynamicObject as a GameObject, with features that allows movement with a direction and a speed.
     /// </summary>
-    interface IDynamicObject
+    public interface IDynamicObject
     {
         /// <summary>
         /// get and set the speed of the DynamicObject.

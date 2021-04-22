@@ -1,1 +1,6 @@
 C:\Users\Filippo\Desktop\CSharp\Venturini\Venturini\bin\Debug\Venturini.exe.config
+C:\Users\Filippo\Desktop\CSharp\Venturini\Venturini\bin\Debug\Venturini.exe
+C:\Users\Filippo\Desktop\CSharp\Venturini\Venturini\bin\Debug\Venturini.pdb
+C:\Users\Filippo\Desktop\CSharp\Venturini\Venturini\obj\Debug\Venturini.csprojResolveAssemblyReference.cache
+C:\Users\Filippo\Desktop\CSharp\Venturini\Venturini\obj\Debug\Venturini.exe
+C:\Users\Filippo\Desktop\CSharp\Venturini\Venturini\obj\Debug\Venturini.pdb

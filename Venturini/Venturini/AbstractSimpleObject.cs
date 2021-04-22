@@ -13,24 +13,22 @@ namespace Venturini
     ///    
     /// The method for manage collisions is to be implemented in base of the type of the SimpleObject that need it.
     /// </summary>
-    abstract class AbstractSimpleObject : IGameObject
+    public abstract class AbstractSimpleObject : IGameObject
     {
-        private int id;
-        private Point2D position;
+        public int Id { get; set; }
 
-        public Point2D Position { get; set; }
+        public virtual Point2D Position { get; set; }
 
         public BoundingBox BoundingBox  { get; set; }
-
-        public int ID { get; set; }
 
         /// <summary>
         /// Build a new SimpleObject, by it's type and it's position in the room.
         /// </summary>
         /// <param name="position">the position where the SimpleObject will be placed.</param>
-        public AbstractSimpleObject(Point2D position)
+        public AbstractSimpleObject(Point2D position, int id)
         {
-            this.position = position;
+            this.Position = position;
+            this.Id = id;
         }
     }
 }

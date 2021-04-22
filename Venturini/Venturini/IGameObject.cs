@@ -9,7 +9,7 @@ namespace Venturini
     /// <summary>
     /// An interface that represent the basic entity which can be placed in a Room during the gameloop.
     /// </summary>
-    interface IGameObject
+    public interface IGameObject
     {
         /// <summary>
         /// return or set the Position of the GameObject.
@@ -19,7 +19,7 @@ namespace Venturini
         /// <summary>
         /// return or set the id of the GameObject.
         /// </summary>
-        int ID { get; set; }
+        int Id { get; set; }
 
         /// <summary>
         /// get and set the BoundingBox corresponding to the GameObject.

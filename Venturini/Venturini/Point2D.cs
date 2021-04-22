@@ -9,7 +9,7 @@ namespace Venturini
     /// <summary>
     /// A basic class that implements the concept of Point in two dimensions.
     /// </summary>
-    class Point2D
+    public class Point2D
     {
         private readonly double x;
         private readonly double y; 

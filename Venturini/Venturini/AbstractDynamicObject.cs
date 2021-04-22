@@ -13,7 +13,7 @@ namespace Venturini
     /// It also implements the changing of the state of the DynamicObject,
     /// making explicit if it's moving and in what direction.
     /// </summary>
-    abstract class AbstractDynamicObject : AbstractSimpleObject, IDynamicObject
+    public abstract class AbstractDynamicObject : AbstractSimpleObject, IDynamicObject
     {
         private Vector2D direction;
         private int speed;
@@ -28,7 +28,7 @@ namespace Venturini
             set { this.direction = value; }
         }
 
-        public new Point2D Position
+        public override Point2D Position
         {
             set
             {
@@ -43,7 +43,7 @@ namespace Venturini
         /// </summary>
         /// <param name="speed">the initial speed of the DinamicObject.</param>
         /// <param name="position">the initial position of the DinamicObject.</param>
-        public AbstractDynamicObject(int speed, Point2D position) : base(position)
+        public AbstractDynamicObject(int speed, Point2D position, int id) : base(position, id)
         {
             this.speed = speed;
             this.lastPosition = base.Position;

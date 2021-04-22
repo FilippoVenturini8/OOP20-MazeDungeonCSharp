@@ -46,6 +46,8 @@
     <Compile Include="AbstractDynamicObject.cs" />
     <Compile Include="AbstractSimpleObject.cs" />
     <Compile Include="BoundingBox.cs" />
+    <Compile Include="DynamicObjectImpl.cs" />
+    <Compile Include="SimpleObjectImpl.cs" />
     <Compile Include="IDynamicObject.cs" />
     <Compile Include="IGameObject.cs" />
     <Compile Include="ISimpleObject.cs" />

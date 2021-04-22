@@ -10,7 +10,7 @@ namespace Venturini
     /// The BoundingBox is a class that permit to check a collision with an 
     /// other BondingBox.
     /// </summary>
-    class BoundingBox
+    public class BoundingBox
     {
         private Point2D upperLeft;
         private Point2D bottomRight;
