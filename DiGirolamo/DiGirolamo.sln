@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiGirolamo", "DiGirolamo\DiGirolamo.csproj", "{DE51838C-5CDA-48A7-8844-EE721C41FFE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{F6E1D520-A584-407E-BF57-83D97AAEC236}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DE51838C-5CDA-48A7-8844-EE721C41FFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE51838C-5CDA-48A7-8844-EE721C41FFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE51838C-5CDA-48A7-8844-EE721C41FFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E1D520-A584-407E-BF57-83D97AAEC236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E1D520-A584-407E-BF57-83D97AAEC236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E1D520-A584-407E-BF57-83D97AAEC236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E1D520-A584-407E-BF57-83D97AAEC236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

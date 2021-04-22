@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DiGirolamo
 {
-    interface IItem
+    public interface IItem
     {
         /// <summary>
         ///get and set value that represents the price

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DiGirolamo
 {
-    class ItemBuilder : IItem
+    public class ItemBuilder : IItem
     {
         private readonly Items name;
         private int cost;

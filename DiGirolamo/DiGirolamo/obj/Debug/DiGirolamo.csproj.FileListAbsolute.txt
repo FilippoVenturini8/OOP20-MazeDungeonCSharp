@@ -1,0 +1,7 @@
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\bin\Debug\DiGirolamo.exe.config
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\bin\Debug\DiGirolamo.exe
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\bin\Debug\DiGirolamo.pdb
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\obj\Debug\DiGirolamo.csprojAssemblyReference.cache
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\obj\Debug\DiGirolamo.csproj.CoreCompileInputs.cache
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\obj\Debug\DiGirolamo.exe
+C:\Users\alber\Desktop\CSharp\OOP20-MazeDungeonCSharp\DiGirolamo\DiGirolamo\obj\Debug\DiGirolamo.pdb
