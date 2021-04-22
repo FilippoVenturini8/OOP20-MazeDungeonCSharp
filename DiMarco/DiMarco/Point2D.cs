@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace DiMarco
 {
-    class Point2D
+    /// <summary>
+    /// A basic class that implements the concept of Point in two dimensions.
+    /// </summary>
+    public class Point2D
     {
-        private double x;
-        private double y; 
+        private readonly double x;
+        private readonly double y; 
 
         public double X
         {
             get { return x; }
-            set { this.x = value; }
         }
 
         public double Y
         {
             get { return y; }
-            set { this.y = value; }
         }
 
 
@@ -31,8 +32,8 @@ namespace DiMarco
         /// <param name="y">the y coordinate of the point.</param>
         public Point2D(double x, double y)
         {
-            this.X = x;
-            this.Y = y;
+            this.x = x;
+            this.y = y;
         }
 
         /// <summary>

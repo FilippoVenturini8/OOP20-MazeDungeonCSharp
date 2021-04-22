@@ -22,6 +22,8 @@ namespace DiMarco
         /// </summary>
         int Money { get; set; }
 
+        bool Shoot { get; set; }
+
         /// <summary>
         /// 
         /// </summary>
@@ -33,12 +35,6 @@ namespace DiMarco
         /// </summary>
         /// <param name="speed"></param>
         void IncreaseSpeed(int speed);
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="bulletSpeed"></param>
-        void IncreaseBulletSpeed(int bulletSpeed);
 
         /// <summary>
         /// 

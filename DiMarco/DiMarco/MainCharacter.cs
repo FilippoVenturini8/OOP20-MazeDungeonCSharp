@@ -4,35 +4,28 @@ using System.Text;
 
 namespace DiMarco
 {
-    class MainCharacter : IMainCharacter
+    public class MainCharacter : AbstractDynamicObject, IMainCharacter
     {
         private static readonly double MAX_LIFE = 100;
-        private static readonly int INITIAL_SPEED = 300;
         private static readonly int INITIAL_MONEY = 0;
         private static readonly int INITIAL_BONUS_SPEED = 0;
         private static readonly int INITIAL_BULLET_DELAY = 400;
         private static readonly DateTime firstDate = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 
-        private double life;
-        private int bonusDamage;
-        private int bonusSpeed;
-        private int money;
         //private readonly BulletFactory bulletFactory;
         private long lastShootTime;
         private Vector2D shootDirection;
-        private bool shoot;
         private bool win;
 
 
         public MainCharacter(Point2D position)
         {
-            this.life = MAX_LIFE;
-            this.bonusDamage = 0;
-            this.bonusSpeed = INITIAL_BONUS_SPEED;
-            this.money = INITIAL_MONEY;
-            //this.lastShootTime = System.currentTimeMillis();
-            //this.bulletFactory = new BulletFactoryImpl();
-            this.shoot = false;
+            this.Life = MAX_LIFE;
+            this.BonusDamage = 0;
+            this.BonusSpeed = INITIAL_BONUS_SPEED;
+            this.Money = INITIAL_MONEY;
+            this.lastShootTime = this.GetTimeMillis();
+            this.Shoot = false;
             this.win = false;
         }
 
@@ -42,36 +35,34 @@ namespace DiMarco
             get { return this.MaxLife; } 
         }
 
-        public double Life 
-        { 
-            get { return this.life; }  
-            set { this.life = value; } 
-        }
+        public double Life { get; set; }
 
-        public int Money 
-        { 
-            get { return money; } 
-            set { this.money = value; } 
-        }
+        public int Money { get; set; }
 
-        public void IncreaseBulletSpeed(int bulletSpeed)
+        public bool Shoot { get; set; }
+
+        public int BonusSpeed { get; private set; }
+
+        public int BonusDamage { get; private set; }
+
+        public override void Update(double elapsed)
         {
-            this.bonusSpeed += bulletSpeed;
+
         }
 
         public void IncreaseDamage(int damage)
         {
-            this.bonusSpeed += damage;
+            this.BonusDamage += damage;
         }
 
         public void IncreaseSpeed(int speed)
         {
-            this.bonusSpeed += speed;
+            this.BonusSpeed += speed;
         }
 
         public bool IsDead()
         {
-            return this.life <= 0;
+            return this.Life <= 0;
         }
 
         public bool IsWin()
@@ -88,7 +79,7 @@ namespace DiMarco
         {
             if (this.CanShoot())
             {
-                this.shoot = shoot;
+                this.Shoot = shoot;
             }
         }
 
@@ -110,9 +101,7 @@ namespace DiMarco
 
         public void TakesDamage(int damage)
         {
-            throw new NotImplementedException();
+            this.Life -= damage;
         }
-
-
     }
 }

@@ -1,3 +1,16 @@
 C:\Users\david\Desktop\Nuova cartella (2)\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.csprojAssemblyReference.cache
 C:\Users\david\Desktop\Nuova cartella (2)\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.AssemblyInfoInputs.cache
 C:\Users\david\Desktop\Nuova cartella (2)\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.AssemblyInfo.cs
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\bin\Debug\netcoreapp3.1\DiMarco.exe
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\bin\Debug\netcoreapp3.1\DiMarco.deps.json
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\bin\Debug\netcoreapp3.1\DiMarco.runtimeconfig.json
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\bin\Debug\netcoreapp3.1\DiMarco.runtimeconfig.dev.json
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\bin\Debug\netcoreapp3.1\DiMarco.dll
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\bin\Debug\netcoreapp3.1\DiMarco.pdb
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.csprojAssemblyReference.cache
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.csproj.CoreCompileInputs.cache
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.AssemblyInfoInputs.cache
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.AssemblyInfo.cs
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.dll
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.pdb
+C:\Users\david\OneDrive\Desktop\progetto c#\OOP20-MazeDungeonCSharp\DiMarco\DiMarco\obj\Debug\netcoreapp3.1\DiMarco.genruntimeconfig.cache
