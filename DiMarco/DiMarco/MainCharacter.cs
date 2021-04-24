@@ -6,18 +6,15 @@ namespace DiMarco
 {
     public class MainCharacter : AbstractDynamicObject, IMainCharacter
     {
-        private static readonly double MAX_LIFE = 100;
-        private static readonly int INITIAL_MONEY = 0;
-        private static readonly int INITIAL_BONUS_SPEED = 0;
-        private static readonly int INITIAL_BULLET_DELAY = 400;
-        private static readonly DateTime firstDate = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+        private const double MAX_LIFE = 100;
+        private const int INITIAL_MONEY = 0;
+        private const int INITIAL_BONUS_SPEED = 0;
+        private const int INITIAL_BULLET_DELAY = 400;
+        private DateTime firstDate = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 
-        //private readonly BulletFactory bulletFactory;
         private long lastShootTime;
-        private Vector2D shootDirection;
         private bool win;
-
-
+        
         public MainCharacter(Point2D position)
         {
             this.Life = MAX_LIFE;
@@ -28,7 +25,6 @@ namespace DiMarco
             this.Shoot = false;
             this.win = false;
         }
-
 
         public double MaxLife 
         { 
