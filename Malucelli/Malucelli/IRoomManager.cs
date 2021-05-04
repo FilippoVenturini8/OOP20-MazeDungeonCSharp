@@ -21,6 +21,9 @@ namespace Malucelli
         /// </summary>
         IRoom ActualRoom { get;  }
 
+        /// <summary>
+        /// the number of visited rooms
+        /// </summary>
         int VisitedRooms { get;  }
 
         /// <summary>

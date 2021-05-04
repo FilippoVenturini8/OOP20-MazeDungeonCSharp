@@ -44,12 +44,12 @@ namespace Malucelli
         {
             foreach(Point2D point in map.Keys)
             {
-                IList<CardinalPoint> cps = map.GetValueOrDefault(point);
+                IList<CardinalPoint> cps = map[point];
                 Room room = new Room(this, cps);
                 this.rooms.Add(point, room);
             }
             
-            this.ActualRoom = rooms.GetValueOrDefault(new Point2D(0, 0));
+            this.ActualRoom = rooms[new Point2D(0, 0)];
             this.ActualRoom.Visit();
         }
 
@@ -68,8 +68,8 @@ namespace Malucelli
                 {
                     map.Add(newRoomPosition, new List<CardinalPoint>());
                 }
-                map.GetValueOrDefault(newRoomPosition).Add(CardinalPoints.GetOpposite(extractedCP));
-                map.GetValueOrDefault(extractedPosition).Add(extractedCP);
+                map[newRoomPosition].Add(CardinalPoints.GetOpposite(extractedCP));
+                map[extractedPosition].Add(extractedCP);
             }
             return map;
         }
@@ -77,7 +77,7 @@ namespace Malucelli
         {
             foreach(Point2D point in rooms.Keys)
             {
-                if (rooms.GetValueOrDefault(point).Equals(room))
+                if (rooms[point].Equals(room))
                 {
                     return point;
                 }
@@ -87,7 +87,7 @@ namespace Malucelli
 
         public void ChangeRoom(CardinalPoint cp)
         {
-            IRoom newRoom = rooms.GetValueOrDefault(this.GetNearRoomPosition(this.GetRoomPosition(ActualRoom), cp));
+            IRoom newRoom = rooms[this.GetNearRoomPosition(this.GetRoomPosition(ActualRoom), cp)];
             if (newRoom == null)
             {
                 return;
